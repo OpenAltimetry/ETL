@@ -112,6 +112,7 @@ public class AddFileId {
                     System.out.println("-------------------------");
                     System.out.println("lat="+lat+", lon="+lon);
                     doit(connection, lat, lon);
+                    dolink(connection, lat, lon);
                 }
             }
         } finally {
